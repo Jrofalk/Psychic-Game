@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Psychic</title>
-  </head>
-  <body>
 
-    <h1>Psychic</h1>
-     
-    <h3>Guess what letter I am thinking of</h3>
-    
-      <div>Wins:<span id='user-win'></span></div>
-      <div>Losses:<span id='user-loss'></span></div>
-      <div>Guesses Left:<span id='guess-count'></span></div>
-      <div>You Guesses So Far:<span id='user-guess'></span></div>
+<head>
+  <meta charset="UTF-8">
+  <title>Psychic</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href='assets/css/style.css'>
+</head>
 
-  <script src='assets/javascript/game.js'></script> 
+<body>
+
+  <div class=text>
+
+    <nav class="nav justify-content-center navbar navbar-light bg-light">
+      <span class="navbar-text">
+        <h1 id=header>Psychic</h1>
+      </span>
+    </nav>
+
+    <div class='jumbotron jumbotron-fluid'>
+      <div class="container">
+        <div class='text-center'>
+          <h6>Guess what letter I am thinking of...</h6>
+            <div>Wins:<span id='user-win'></span></div>
+            <div>Losses:<span id='user-loss'></span></div>
+            <div>Guesses Left:<span id='guess-count'></span></div>
+            <div>Your Guesses So Far:<span id='user-guess'></span></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src='assets/javascript/game.js'></script>
 
 </body>
+
 </html>
